@@ -10,7 +10,7 @@ function toogleButton() {
 function tellMe(joke) {
     VoiceRSS.speech({
         // For this project I used free version fo the API with 
-        // limited access to the API
+        // limited access to it
         key: 'ad255625c5bc4d1b838f3ea36396bf23', 
         src: joke,
         hl: 'en-us',
